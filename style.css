@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: palevioletred;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#card  h1{
+    display:flex;
+    justify-content: center;
+}
+h1{
+    color:palevioletred;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+input:active{
+    border:none;
+}
+input:focus{
+    outline: none;
+}
+#card{
+    height:500px;
+    width:400px;
+    margin:20px auto;
+    background-color:aquamarine;
+    border-radius:10px;
+    padding:30px;
+}
+button{
+    margin-top:20px;
+    background-color: palevioletred;
+    border-radius: 4px;
+    height: 36px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: aquamarine;
+    cursor: pointer;
+}
+#todo{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+}
+#todo p{
+    margin:10px 0px;
+    color: palevioletred;
+}
+  
+#todo p:hover{
+    cursor: pointer;
+}
